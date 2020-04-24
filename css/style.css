@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #674baf;
+  background-position-y: -35px;
+}
+
+body .mainbox {
+  width: 80%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+  margin: auto;
+}
+
+body .container {
+  max-width: 1250px;
+}
+
+body #main-header #logo {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+body .box #mockup {
+  width: 100%;
+  margin-bottom: 70px;
+  max-width: 450px;
+}
+
+body .about {
+  margin-bottom: 70px;
+}
+
+body .about #about-header {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+body .about #about-text {
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: normal;
+}
+
+body .about .inputSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+body .about .inputSec input {
+  padding: 12px 70px;
+  font-size: 12px;
+  border-radius: 50px;
+  border: none;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  color: #674baf;
+}
+
+body .about .inputSec input:focus {
+  display: none;
+}
+
+body .socials .iconsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .socials .icons {
+  padding: 7px;
+}
+
+@media screen and (min-width: 790px) {
+  body body {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: #674baf;
+    background-position-y: -35px;
+    background-position: center center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .mainbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 780px;
+  }
+  body .flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .flex-box .box-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  body .flex-box .box-2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 30px;
+  }
+  body .flex-box .socials .iconsContainer {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .flex-box .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .flex-box .about #about-header {
+    text-align: left;
+    font-size: 28px;
+  }
+  body .flex-box .about #about-text {
+    text-align: left;
+  }
+  body .flex-box .about .inputSec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 20px;
+  }
+}
+
+body footer {
+  text-align: center;
+  padding: 25px;
+}
+
+body footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body footer .attribution a {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
